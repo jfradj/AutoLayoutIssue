@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ARJProcedureListViewController">
+            <connections>
+                <outlet property="tableView" destination="Oac-QV-tT6" id="TrU-cN-m4o"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Oac-QV-tT6">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="XAT-7F-h9a"/>
+                        <outlet property="delegate" destination="-1" id="yMa-Ad-7q1"/>
+                    </connections>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s4e-t5-2VS">
+                    <rect key="frame" x="135" y="467" width="498" height="90"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bonjour et bienvenu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdS-hw-wg4">
+                            <rect key="frame" x="20" y="20" width="458" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Label Label Label LabelLabel Label Label Label Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49J-i5-h25">
+                            <rect key="frame" x="20" y="49" width="458" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="IdS-hw-wg4" firstAttribute="top" secondItem="s4e-t5-2VS" secondAttribute="top" constant="20" symbolic="YES" id="5JW-oZ-8xD"/>
+                        <constraint firstAttribute="trailing" secondItem="49J-i5-h25" secondAttribute="trailing" constant="20" symbolic="YES" id="Doa-v1-G0d"/>
+                        <constraint firstItem="IdS-hw-wg4" firstAttribute="leading" secondItem="s4e-t5-2VS" secondAttribute="leading" constant="20" symbolic="YES" id="Qkk-CT-AqE"/>
+                        <constraint firstAttribute="bottom" secondItem="49J-i5-h25" secondAttribute="bottom" constant="20" symbolic="YES" id="TDC-vw-eXG"/>
+                        <constraint firstItem="49J-i5-h25" firstAttribute="top" secondItem="IdS-hw-wg4" secondAttribute="bottom" constant="8" symbolic="YES" id="UYF-D9-L2O"/>
+                        <constraint firstAttribute="trailing" secondItem="IdS-hw-wg4" secondAttribute="trailing" constant="20" symbolic="YES" id="Uby-xu-Bnw"/>
+                        <constraint firstItem="49J-i5-h25" firstAttribute="leading" secondItem="s4e-t5-2VS" secondAttribute="leading" constant="20" symbolic="YES" id="dwh-4K-9Yj"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Oac-QV-tT6" secondAttribute="bottom" id="Ibl-NU-zRi"/>
+                <constraint firstAttribute="centerX" secondItem="s4e-t5-2VS" secondAttribute="centerX" id="IeF-PJ-qwQ"/>
+                <constraint firstItem="Oac-QV-tT6" firstAttribute="top" secondItem="2" secondAttribute="top" id="O8C-jM-Y30"/>
+                <constraint firstAttribute="trailing" secondItem="Oac-QV-tT6" secondAttribute="trailing" id="Ttp-ef-fM7"/>
+                <constraint firstItem="Oac-QV-tT6" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="Up8-ne-p9k"/>
+                <constraint firstAttribute="centerY" secondItem="s4e-t5-2VS" secondAttribute="centerY" id="uRb-G4-ZZX"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

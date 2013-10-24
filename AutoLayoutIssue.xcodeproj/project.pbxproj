@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8238A0A17A5718200C6EE79 /* ARJProcedureListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8238A0917A5718200C6EE79 /* ARJProcedureListViewCell.xib */; };
+		C8238A0D17A5719A00C6EE79 /* ARJProcedureListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8238A0C17A5719A00C6EE79 /* ARJProcedureListViewCell.m */; };
+		C8C80BD6179C215800206C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C80BD5179C215800206C0F /* Foundation.framework */; };
+		C8C80BD8179C215800206C0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C80BD7179C215800206C0F /* CoreGraphics.framework */; };
+		C8C80BDA179C215800206C0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C80BD9179C215800206C0F /* UIKit.framework */; };
+		C8C80BE0179C215800206C0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8C80BDE179C215800206C0F /* InfoPlist.strings */; };
+		C8C80BE2179C215800206C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C80BE1179C215800206C0F /* main.m */; };
+		C8C80BE6179C215800206C0F /* ARJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C80BE5179C215800206C0F /* ARJAppDelegate.m */; };
+		C8C80BE8179C215800206C0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C80BE7179C215800206C0F /* Images.xcassets */; };
+		C8C80C05179C218F00206C0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C80C04179C218E00206C0F /* QuartzCore.framework */; };
+		C8C80C2B179C22F400206C0F /* ARJProcedureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C80C29179C22F400206C0F /* ARJProcedureListViewController.m */; };
+		C8C80C2C179C22F400206C0F /* ARJProcedureListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C80C2A179C22F400206C0F /* ARJProcedureListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8238A0917A5718200C6EE79 /* ARJProcedureListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ARJProcedureListViewCell.xib; path = Classes/View/ARJProcedureListViewCell.xib; sourceTree = "<group>"; };
+		C8238A0B17A5719A00C6EE79 /* ARJProcedureListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARJProcedureListViewCell.h; path = Classes/View/ARJProcedureListViewCell.h; sourceTree = "<group>"; };
+		C8238A0C17A5719A00C6EE79 /* ARJProcedureListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARJProcedureListViewCell.m; path = Classes/View/ARJProcedureListViewCell.m; sourceTree = "<group>"; };
+		C8C80BD2179C215800206C0F /* AutoLayoutIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C80BD5179C215800206C0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8C80BD7179C215800206C0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8C80BD9179C215800206C0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8C80BDD179C215800206C0F /* AutoLayoutIssue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLayoutIssue-Info.plist"; sourceTree = "<group>"; };
+		C8C80BDF179C215800206C0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8C80BE1179C215800206C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8C80BE3179C215800206C0F /* AutoLayoutIssue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoLayoutIssue-Prefix.pch"; sourceTree = "<group>"; };
+		C8C80BE4179C215800206C0F /* ARJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARJAppDelegate.h; sourceTree = "<group>"; };
+		C8C80BE5179C215800206C0F /* ARJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARJAppDelegate.m; sourceTree = "<group>"; };
+		C8C80BE7179C215800206C0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AutoLayoutIssue/Images.xcassets; sourceTree = "<group>"; };
+		C8C80C04179C218E00206C0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C8C80C28179C22F400206C0F /* ARJProcedureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARJProcedureListViewController.h; path = Classes/Controller/ARJProcedureListViewController.h; sourceTree = "<group>"; };
+		C8C80C29179C22F400206C0F /* ARJProcedureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARJProcedureListViewController.m; path = Classes/Controller/ARJProcedureListViewController.m; sourceTree = "<group>"; };
+		C8C80C2A179C22F400206C0F /* ARJProcedureListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ARJProcedureListViewController.xib; path = Classes/Controller/ARJProcedureListViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8C80BCF179C215800206C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C80C05179C218F00206C0F /* QuartzCore.framework in Frameworks */,
+				C8C80BD8179C215800206C0F /* CoreGraphics.framework in Frameworks */,
+				C8C80BDA179C215800206C0F /* UIKit.framework in Frameworks */,
+				C8C80BD6179C215800206C0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8238A0817A5715700C6EE79 /* ProcedureList */ = {
+			isa = PBXGroup;
+			children = (
+				C8238A0B17A5719A00C6EE79 /* ARJProcedureListViewCell.h */,
+				C8238A0C17A5719A00C6EE79 /* ARJProcedureListViewCell.m */,
+				C8238A0917A5718200C6EE79 /* ARJProcedureListViewCell.xib */,
+			);
+			name = ProcedureList;
+			sourceTree = "<group>";
+		};
+		C8C80BC9179C215800206C0F = {
+			isa = PBXGroup;
+			children = (
+				C8C80BE7179C215800206C0F /* Images.xcassets */,
+				C8C80BDB179C215800206C0F /* AutoLayoutIssue */,
+				C8C80BD4179C215800206C0F /* Frameworks */,
+				C8C80BD3179C215800206C0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8C80BD3179C215800206C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8C80BD2179C215800206C0F /* AutoLayoutIssue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8C80BD4179C215800206C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8C80C04179C218E00206C0F /* QuartzCore.framework */,
+				C8C80BD5179C215800206C0F /* Foundation.framework */,
+				C8C80BD7179C215800206C0F /* CoreGraphics.framework */,
+				C8C80BD9179C215800206C0F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C80BDB179C215800206C0F /* AutoLayoutIssue */ = {
+			isa = PBXGroup;
+			children = (
+				C8C80C07179C21DF00206C0F /* View */,
+				C8C80C06179C21D600206C0F /* Controller */,
+				C8C80BE4179C215800206C0F /* ARJAppDelegate.h */,
+				C8C80BE5179C215800206C0F /* ARJAppDelegate.m */,
+				C8C80BDC179C215800206C0F /* Supporting Files */,
+			);
+			name = AutoLayoutIssue;
+			path = AutoLayoutIssue;
+			sourceTree = "<group>";
+		};
+		C8C80BDC179C215800206C0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8C80BDD179C215800206C0F /* AutoLayoutIssue-Info.plist */,
+				C8C80BDE179C215800206C0F /* InfoPlist.strings */,
+				C8C80BE1179C215800206C0F /* main.m */,
+				C8C80BE3179C215800206C0F /* AutoLayoutIssue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8C80C06179C21D600206C0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8C80C4F179C242400206C0F /* Procedure */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C8C80C07179C21DF00206C0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8238A0817A5715700C6EE79 /* ProcedureList */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C8C80C4F179C242400206C0F /* Procedure */ = {
+			isa = PBXGroup;
+			children = (
+				C8C80C28179C22F400206C0F /* ARJProcedureListViewController.h */,
+				C8C80C29179C22F400206C0F /* ARJProcedureListViewController.m */,
+				C8C80C2A179C22F400206C0F /* ARJProcedureListViewController.xib */,
+			);
+			name = Procedure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8C80BD1179C215800206C0F /* AutoLayoutIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C80BFE179C215800206C0F /* Build configuration list for PBXNativeTarget "AutoLayoutIssue" */;
+			buildPhases = (
+				C8C80BCE179C215800206C0F /* Sources */,
+				C8C80BCF179C215800206C0F /* Frameworks */,
+				C8C80BD0179C215800206C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayoutIssue;
+			productName = AutoLayoutIssue;
+			productReference = C8C80BD2179C215800206C0F /* AutoLayoutIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8C80BCA179C215800206C0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ARJ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = C8C80BCD179C215800206C0F /* Build configuration list for PBXProject "AutoLayoutIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8C80BC9179C215800206C0F;
+			productRefGroup = C8C80BD3179C215800206C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8C80BD1179C215800206C0F /* AutoLayoutIssue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8C80BD0179C215800206C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8238A0A17A5718200C6EE79 /* ARJProcedureListViewCell.xib in Resources */,
+				C8C80BE0179C215800206C0F /* InfoPlist.strings in Resources */,
+				C8C80C2C179C22F400206C0F /* ARJProcedureListViewController.xib in Resources */,
+				C8C80BE8179C215800206C0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8C80BCE179C215800206C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8238A0D17A5719A00C6EE79 /* ARJProcedureListViewCell.m in Sources */,
+				C8C80BE6179C215800206C0F /* ARJAppDelegate.m in Sources */,
+				C8C80C2B179C22F400206C0F /* ARJProcedureListViewController.m in Sources */,
+				C8C80BE2179C215800206C0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8C80BDE179C215800206C0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C80BDF179C215800206C0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8C80BFC179C215800206C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C8C80BFD179C215800206C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8C80BFF179C215800206C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLayoutIssue/AutoLayoutIssue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"LOG_AVAILABLE=1",
+				);
+				INFOPLIST_FILE = "AutoLayoutIssue/AutoLayoutIssue-Info.plist";
+				PRODUCT_NAME = AutoLayoutIssue;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8C80C00179C215800206C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLayoutIssue/AutoLayoutIssue-Prefix.pch";
+				INFOPLIST_FILE = "AutoLayoutIssue/AutoLayoutIssue-Info.plist";
+				PRODUCT_NAME = AutoLayoutIssue;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8C80BCD179C215800206C0F /* Build configuration list for PBXProject "AutoLayoutIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C80BFC179C215800206C0F /* Debug */,
+				C8C80BFD179C215800206C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C80BFE179C215800206C0F /* Build configuration list for PBXNativeTarget "AutoLayoutIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C80BFF179C215800206C0F /* Debug */,
+				C8C80C00179C215800206C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8C80BCA179C215800206C0F /* Project object */;
+}
