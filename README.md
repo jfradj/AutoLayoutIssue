@@ -12,19 +12,18 @@ If then you rotate to landscape, the image doesn't grow and instead it's the yel
 
 Now If you launch the app in landscape, the cells are perfect too. The image is well sized (351 pts width (rounded value) * 456 pts heigth), etc...
 If then you rotate to portrait it makes the app to crash... With the following output:
-<blockquote>
-Unable to simultaneously satisfy constraints.
-	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
-(
-    "<NSLayoutConstraint:0xa3d9dd0 V:|-(0)-[UIImageView]   (Names: '|':UITableViewCellContentView )>",
-    "<NSLayoutConstraint:0xa3d9e00 V:[UIView]-(8)-|   (Names: '|':UITableViewCellContentView )>",
-    "<NSLayoutConstraint:0xa3d9e60 V:[UIImageView]-(8)-[UIView]>",
-    "<NSLayoutConstraint:0xa3dd9b0 V:[UIImageView(456)]>",
-    "<NSAutoresizingMaskLayoutConstraint:0xa3de670 h=--& v=--& V:[UITableViewCellContentView(431)]>"
-)
 
-Will attempt to recover by breaking constraint 
-<NSLayoutConstraint:0xa3dd9b0 V:[UIImageView(456)]>
-</blockquote>
+	Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+	(
+	    "<NSLayoutConstraint:0xa3d9dd0 V:|-(0)-[UIImageView]   (Names: '|':UITableViewCellContentView )>",
+	    "<NSLayoutConstraint:0xa3d9e00 V:[UIView]-(8)-|   (Names: '|':UITableViewCellContentView )>",
+	    "<NSLayoutConstraint:0xa3d9e60 V:[UIImageView]-(8)-[UIView]>",
+	    "<NSLayoutConstraint:0xa3dd9b0 V:[UIImageView(456)]>",
+	    "<NSAutoresizingMaskLayoutConstraint:0xa3de670 h=--& v=--& V:[UITableViewCellContentView(431)]>"
+	)
+	
+	Will attempt to recover by breaking constraint 
+	<NSLayoutConstraint:0xa3dd9b0 V:[UIImageView(456)]>
 
 Notes: You have to kill the app and rotate the simulator before relaunching the project from Xcode.
