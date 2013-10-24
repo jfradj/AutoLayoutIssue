@@ -2,7 +2,8 @@ AutoLayoutIssue
 ===============
 
 This project aims to solve a complex table view cell layout with auto layout.
-Full discussions on Apple developers forums: 
+
+Full discussions on Apple developers forums: XXX
 
 ### Be aware, this project is (for the moment) bugged.
 
